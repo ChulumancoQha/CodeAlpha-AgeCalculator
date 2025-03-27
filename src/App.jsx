@@ -1,11 +1,13 @@
-
+import { Typography, Container } from '@mui/material';
 
 function App() {
 
   return (
-    <div>
-
-    </div>
+    <Container maxWidth="sm" >
+        <Typography variant="h1" component="h2" align='center' >
+          Age Calculator
+        </Typography>
+    </Container>
   )
 }
 
